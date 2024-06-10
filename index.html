@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balam Castro</title>
+    <link rel="stylesheet" href="style\style.css">
+    <script src="https://kit.fontawesome.com/dad9f3d6dd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Overpass+Mono:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">       
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!--<img src="..\png\miniMex-03-01.png" class="logo"> -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Who am I?</p>
+            <h1><span>Balam</span>
+                <br>Mexican 
+                <br>Geographer
+                <br>Photographer
+            </h1>
+        </div>
+
+    </div>
+</div>
+<!-----------------about me------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="..\jpg\foto.jpg" alt="no hay nada">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Geographer since 2014. Specialized in natural resource management, 
+                    sustainable territorial planning, and particularly focused on geospatial 
+                    technologies for cartographic design and production. Wide experience as 
+                    spatial analyst with GIS and remote sensing tools. Notable for incorporating 
+                    design and data visualization tools to produce more appealing and useful 
+                    information for the different users. Also experienced in planning and 
+                    executing fieldwork in rural and urban contexts. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>GIS</span><br>Spatial Analysis</li>
+                            <li><span>Cartography</span><br>Design and production</li>
+                            <li><span>Data Viz</span><br>DB Management <br>Graphic design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2018-2019</span><br>GIS Analyst</li>
+                            <li><span>2019-2020</span><br>Research Project coordinator</li>
+                            <li><span>2019-2021</span><br>Associate professor</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2010-2014</span><br>BS Geography</li>
+                            <li><span>2017-2019</span><br>MSc Sustainability Science</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------services-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-earth-americas"></i>
+                <h2>Maps, maps and more maps</h2>
+                <p>Cartographic design and production for all your needs.
+                    Scientific inputs with aesthetic results <br><br>
+                <p class="cita">"La cartografía es la más artística de las ciencias y la más científica
+                    de las artes"
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Visualization</h2>
+                <p>Cartographic design and production for all your needs.
+                    Scientific inputs with aesthetic results <br>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-images"></i>
+                <h2>Photography</h2>
+                <p>Cartographic design and production for all your needs.
+                    Scientific inputs with aesthetic results <br>
+                    <a href="../fotos/index.html" >learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------portfolio---------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="..\png\laguna.png" alt="Aquí va una imagen">
+                <div class="layer">
+                    <h3>Geography</h3>
+                    <!--<p>Territory, Sustainability and more</p>-->
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="..\png\roboto.png" alt="Aquí va una imagen">
+                <div class="layer">
+                <h3>Data</h3>
+                <!--<p>The art of science</p>-->
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="..\png\flor.png" alt="Aquí va una imagen">
+                <div class="layer">
+                    <h3>Photography</h3>
+                   <!-- <p>From faces to</p>-->
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------ maps ----------------->
+<div id="map">
+    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=2.180120944976807%2C41.42314791802191%2C2.201299667358399%2C41.442838972931746&amp;layer=mapnik&amp;marker=41.43299419211502%2C2.1907103061676025" style="border: 1px solid black"></iframe><br/><small>
+        <span class="btn">
+            <a id="map-text" href="https://www.openstreetmap.org/?mlat=41.4330&amp;mlon=2.1907#map=16/41.4330/2.1907">Ver el mapa más grande</a></small>
+        </span>
+</div>
+
+
+
+
+<!---------------contact--------------->
+<div id= "contact" >
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-comments"></i> ekbalam@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen"></i> 666140628</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/balamcastro/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/balam_castro/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Balam_CT"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.researchgate.net/profile/Balam-Castro"><i class="fa-brands fa-researchgate"></i></a>
+                </div>
+                <a href="..\pdf\CV_BC_ENG_02_2024.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p>Copyright © Balam Castro. Website made by me <i class="fa-solid fa-feather"></i>   </p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+</body>
+</html>
